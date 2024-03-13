@@ -12,7 +12,7 @@ $ psql --version
 
 A continuación, revisa el contenido del archivo `./.env` y sigue los pasos que se describen a continuación:
 
-1. Crea una nueva base de datos dentro del motor de Postgres personalizando y ejecutando el siguiente comando: `$ createdb -h localhost -U <username> <db_name>`
+1. Crea una nueva base de datos dentro del motor de Postgres personalizando y ejecutando el siguiente comando: `$ createdb -h giy 
 2. Conéctate al motor de Postgres para utilizar tu base de datos, manipular tablas y datos:  `$ psql -h localhost -U <username> <db_name>`
 
 > NOTA: Recuerda revisar la información del fichero `./.env` para obtener el `username` y el `db_name`.
